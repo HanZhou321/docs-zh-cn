@@ -267,6 +267,14 @@ data() {
 
 ![指令语法图](./images/directive.png)
 
+v-on (指令名，以v-开始，简写时可能被忽略)
+:submit (指令参数，跟在冒号（或简写符号）后)
+.prevent (修饰方法，由前方的句号"."表示)
+="onSubmit" (数值,被理解为JavaScript表达式)
+
+![image](https://github.com/vuejs-translations/docs-zh-cn/assets/112528756/725e49c3-c612-4f4b-8b8d-b53523106c9d)
+
+
 <!-- https://www.figma.com/file/BGWUknIrtY9HOmbmad0vFr/Directive -->
 
 <!-- zhlint disabled -->
